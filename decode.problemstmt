@@ -1,0 +1,27 @@
+Source: SPOJ
+
+Input
+-----
+Input will consist of multiple input sets. Each set will consist of a single line of at most 5000 digits representing a valid encryption (for example, no line will begin with a 0). There will be no spaces between the digits. An input line of ‘0’ will terminate the input and should not be processed.
+
+
+Output
+------
+For each input set, output the number of possible decodings for the input string. All answers will be within the range of a 64 bit signed integer.
+
+
+Example
+-------
+Input:
+
+25114
+1111111111
+3333333333
+0
+EOF
+
+Output:
+
+6
+89
+1
